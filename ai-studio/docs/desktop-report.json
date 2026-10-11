@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "version": "4.5.3 LTS",
+  "checks": [
+    "desktop launch",
+    "main-thread timer commands",
+    "VIEW_3D context override",
+    "save and reload preserves timer"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "checks": [
+    "Blender process ready",
+    "Registered operators and RNA types enumerated",
+    "RNA properties and functions discoverable",
+    "Create geometry through generic operator",
+    "Data paths read and write actual scene state",
+    "Expressions cannot execute through data-path route",
+    "Context errors are actionable and do not crash session",
+    "Syntax errors are reported and next command succeeds",
+    "File helpers reject workspace traversal",
+    "Build procedural observatory through AI Python hook",
+    "Browser transform route edits and restores named object",
+    "Animation responds to frame changes",
+    "Geometry nodes and bevel modifiers evaluate",
+    "Save and reopen .blend with bridge surviving reload",
+    "Export GLB and retrieve it over authenticated HTTP",
+    "MCP initialize, tool listing and live scene call",
+    "Cycles renders PNG through AI command API"
+  ],
+  "started": "2026-10-11T04:08:38.466Z",
+  "operator_count": 2397,
+  "type_count": 3766,
+  "scene": {
+    "scene": "Aster Observatory",
+    "objects": 76,
+    "features": [
+      "mesh modeling",
+      "bevel modifiers",
+      "PBR shaders",
+      "procedural textures",
+      "geometry nodes",
+      "keyframes",
+      "text",
+      "area lights",
+      "Cycles",
+      "compositor"
+    ]
+  },
+  "glb_bytes": 1457452,
+  "png_bytes": 1468700,
+  "completed": "2026-10-11T04:09:08.439Z",
+  "version": "4.5.3 LTS"
+}

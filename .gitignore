@@ -86,3 +86,8 @@ compile_commands.json
 blendcache_*
 *.blend1
 *.blend2
+
+# AI Studio local credentials, process state and generated user scenes.
+/ai-studio/.runtime/
+/ai-studio/test-output/
+/ai-studio/dist/

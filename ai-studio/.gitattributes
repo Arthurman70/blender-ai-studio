@@ -1,0 +1,2 @@
+# Small documentation images are stored directly so the GitHub mirror needs no LFS fetch.
+*.png -filter -diff -merge

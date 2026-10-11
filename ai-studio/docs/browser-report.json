@@ -1,0 +1,13 @@
+{
+  "browser": "Codex in-app Chromium",
+  "checks": [
+    "Loaded local browser workspace and authenticated with session token",
+    "Retrieved 76 objects from Aster Observatory",
+    "Executed Python from the browser and verified a named object's new custom property",
+    "Rendered the scene using the browser control and visibly displayed the PNG",
+    "Verified desktop layout at 1440 by 1000",
+    "Searched bevel operators and displayed live mesh.bevel signature",
+    "Verified orbitable GLB preview with exported Blender camera"
+  ],
+  "passed": true
+}
