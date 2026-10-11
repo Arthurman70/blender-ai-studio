@@ -14,6 +14,17 @@ provides tools to an AI; it does not include a conversational model.
 Requirements: Node.js 20+ and Blender 4.5.3. Tested on Windows x64; other platforms
 can supply their own Blender executable but have not been validated.
 
+The release control-kit ZIP is sufficient for this launcher. When cloning the
+complete source fork, follow Blender's GitHub-mirror convention and skip LFS
+downloads; upstream binary build assets are hosted separately and are not needed
+for this launcher:
+
+```powershell
+$env:GIT_LFS_SKIP_SMUDGE = '1'
+git clone --branch ai-studio https://github.com/Arthurman70/blender-ai-studio.git
+cd blender-ai-studio
+```
+
 ```powershell
 $env:BLENDER_BIN = 'C:\path\to\blender.exe'
 node ai-studio/server.mjs --port 0 --start
